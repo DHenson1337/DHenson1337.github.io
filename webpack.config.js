@@ -28,7 +28,9 @@ module.exports = {
     }),
   ],
   devServer: {
-    static: "./dist",
-    port: 3000,
+    static: {
+      directory: path.resolve(__dirname, "public"),
+    },
+    port: 3000, // Optional: Set the port
   },
 };

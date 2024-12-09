@@ -5,6 +5,7 @@ function App() {
   return (
     <div>
       <h1 style={{ textAlign: "center" }}> My 2D Platformer Game </h1>
+      <PhaserGame />
     </div>
   );
 }
